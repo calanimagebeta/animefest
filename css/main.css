@@ -28,8 +28,8 @@
 }
 body {
   padding-top: 80px;
-  color: #34495e;
-  background: #f5f5f5;
+  color: #ffffff;
+  background: #4EA5D9;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -77,229 +77,72 @@ a:focus {
 body > section {
   padding: 50px 0;
 }
-.turquoise,
-.green-sea,
-.sun-flower,
-.orange,
-.emerald,
-.nephrits,
-.carrot,
-.pumkin,
-.peter-river,
-.belize-hole,
-.alizarin,
-.pomegranate,
-.amethyst,
-.wisteria,
-.clouds .silver,
-.wet-asphalt,
-.midnight-blue,
-.concrete,
-.asbestos {
+.af-blue,
+.af-purple,
+.af-mint,
+.af-sky,
+.af-slate {
   color: #fff;
 }
-.turquoise h1,
-.green-sea h1,
-.sun-flower h1,
-.orange h1,
-.emerald h1,
-.nephrits h1,
-.carrot h1,
-.pumkin h1,
-.peter-river h1,
-.belize-hole h1,
-.alizarin h1,
-.pomegranate h1,
-.amethyst h1,
-.wisteria h1,
-.clouds .silver h1,
-.wet-asphalt h1,
-.midnight-blue h1,
-.concrete h1,
-.asbestos h1,
-.turquoise h2,
-.green-sea h2,
-.sun-flower h2,
-.orange h2,
-.emerald h2,
-.nephrits h2,
-.carrot h2,
-.pumkin h2,
-.peter-river h2,
-.belize-hole h2,
-.alizarin h2,
-.pomegranate h2,
-.amethyst h2,
-.wisteria h2,
-.clouds .silver h2,
-.wet-asphalt h2,
-.midnight-blue h2,
-.concrete h2,
-.asbestos h2,
-.turquoise h3,
-.green-sea h3,
-.sun-flower h3,
-.orange h3,
-.emerald h3,
-.nephrits h3,
-.carrot h3,
-.pumkin h3,
-.peter-river h3,
-.belize-hole h3,
-.alizarin h3,
-.pomegranate h3,
-.amethyst h3,
-.wisteria h3,
-.clouds .silver h3,
-.wet-asphalt h3,
-.midnight-blue h3,
-.concrete h3,
-.asbestos h3,
-.turquoise h4,
-.green-sea h4,
-.sun-flower h4,
-.orange h4,
-.emerald h4,
-.nephrits h4,
-.carrot h4,
-.pumkin h4,
-.peter-river h4,
-.belize-hole h4,
-.alizarin h4,
-.pomegranate h4,
-.amethyst h4,
-.wisteria h4,
-.clouds .silver h4,
-.wet-asphalt h4,
-.midnight-blue h4,
-.concrete h4,
-.asbestos h4,
-.turquoise h5,
-.green-sea h5,
-.sun-flower h5,
-.orange h5,
-.emerald h5,
-.nephrits h5,
-.carrot h5,
-.pumkin h5,
-.peter-river h5,
-.belize-hole h5,
-.alizarin h5,
-.pomegranate h5,
-.amethyst h5,
-.wisteria h5,
-.clouds .silver h5,
-.wet-asphalt h5,
-.midnight-blue h5,
-.concrete h5,
-.asbestos h5,
-.turquoise h6,
-.green-sea h6,
-.sun-flower h6,
-.orange h6,
-.emerald h6,
-.nephrits h6,
-.carrot h6,
-.pumkin h6,
-.peter-river h6,
-.belize-hole h6,
-.alizarin h6,
-.pomegranate h6,
-.amethyst h6,
-.wisteria h6,
-.clouds .silver h6,
-.wet-asphalt h6,
-.midnight-blue h6,
-.concrete h6,
-.asbestos h6 {
+.af-blue h1,
+.af-purple h1,
+.af-mint h1,
+.af-sky h1,
+.af-slate h1,
+.af-blue h2,
+.af-purple h2,
+.af-mint h2,
+.af-sky h2,
+.af-slate h2,
+.af-blue h3,
+.af-purple h3,
+.af-mint h3,
+.af-sky h3,
+.af-slate h3,
+.af-blue h4,
+.af-purple h4,
+.af-mint h4,
+.af-sky h4,
+.af-slate h4,
+.af-blue h5,
+.af-purple h5,
+.af-mint h5,
+.af-sky h5,
+.af-slate h5,
+.af-blue h6,
+.af-purple h6,
+.af-mint h6,
+.af-sky h6,
+.af-slate h6 {
   color: #fff;
 }
-.turquoise small,
-.green-sea small,
-.sun-flower small,
-.orange small,
-.emerald small,
-.nephrits small,
-.carrot small,
-.pumkin small,
-.peter-river small,
-.belize-hole small,
-.alizarin small,
-.pomegranate small,
-.amethyst small,
-.wisteria small,
-.clouds .silver small,
-.wet-asphalt small,
-.midnight-blue small,
-.concrete small,
-.asbestos small {
+.af-blue small,
+.af-purple small,
+.af-mint small,
+.af-sky small,
+.af-slate small {
   color: rgba(255, 255, 255, 0.8);
 }
-.turquoise {
-  background-color: #1abc9c;
+.af-blue {
+  background-color: #373e8c;
 }
-.green-sea {
-  background-color: #16a085;
+.af-purple {
+  background-color: #411e59;
 }
-.sun-flower {
-  background-color: #f1c40f;
-}
-.orange {
-  background-color: #f39c12;
-}
-.emerald {
-  background-color: #2ecc71;
-}
-.nephritis {
-  background-color: #27ae60;
-}
-.carrot {
-  background-color: #e67e22;
-}
-.pumkin {
-  background-color: #d35400;
-}
-.peter-river {
-  background-color: #3498db;
-}
-.belize-hole {
-  background-color: #2980b9;
-}
-.alizarin {
-  background-color: #e74c3c;
-}
-.pomegranate {
-  background-color: #c0392b;
-}
-.amethyst {
-  background-color: #9b59b6;
-}
-.wisteria {
-  background-color: #8e44ad;
-}
-.clouds {
-  background-color: #ecf0f1;
-}
-.silver {
-  background-color: #bdc3c7;
-}
-.wet-asphalt {
-  background-color: #34495e;
-}
-.wet-asphalt a:not(.btn) {
+.af-blue a:not(.btn) {
   color: #bdc3c7;
 }
-.wet-asphalt a:not(.btn):hover {
+.af-blue a:not(.btn):hover {
   color: #d9534f;
 }
-.midnight-blue {
-  background-color: #2c3e50;
+.af-mint {
+  background-color: #44cfcb;
 }
-.concrete {
-  background-color: #95a5a6;
+.af-sky {
+  background-color: #4ea5d9;
 }
-.asbestos {
-  background-color: #7f8c8d;
+.af-slate {
+  background-color: #122c34;
 }
 .embed-container {
   position: relative;
@@ -322,6 +165,7 @@ body > section {
   height: 100%;
 }
 #main-slider {
+  margin-top: 10px;
   position: relative;
 }
 #main-slider .carousel h2 {
@@ -345,10 +189,10 @@ body > section {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  left: 0 !important;
   opacity: 0;
   top: 0;
   position: absolute;
+  margin: auto;
   width: 100%;
   display: block !important;
   height: 600px;
@@ -710,6 +554,7 @@ ul.tag-cloud li {
   color: #fff;
 }
 .navbar-inverse {
+  margin-bottom: 10px;
   border: none;
 }
 .navbar-inverse .navbar-brand {
