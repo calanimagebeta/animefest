@@ -309,7 +309,7 @@ body > section {
 }
 .portfolio-items.col-6 > li {
   width: 16%;
-}
+}f
 .portfolio-item {
   padding: 0;
   margin: 0;
@@ -795,25 +795,39 @@ ul.star li::before {
 ul.rss li::before {
   content: "\f09e";
 }
+
+#body {
+  margin-bottom: 64px;
+}
 #footer {
+  bottom: 0px;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #bdc3c7;
 }
-#footer a {
+#footer #footer2 a {
   color: #bdc3c7;
 }
-#footer a:hover {
+#footer #footer2 a:hover {
   color: #d9534f;
 }
-#footer ul {
+#footer #footer2 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-#footer ul > li {
+#footer #footer2 ul > li {
   display: inline-block;
   margin-left: 15px;
+}
+
+#footer2 {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 ul.social {
   list-style: none;
