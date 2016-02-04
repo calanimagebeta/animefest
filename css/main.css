@@ -804,10 +804,10 @@ ul.rss li::before {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #bdc3c7;
+  color: #ffffff;
 }
 #footer #footer2 a {
-  color: #bdc3c7;
+  color: #ffffff;
 }
 #footer #footer2 a:hover {
   color: #d9534f;
@@ -828,6 +828,7 @@ ul.rss li::before {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
+  color: #ffffff;
 }
 ul.social {
   list-style: none;
