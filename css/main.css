@@ -150,6 +150,11 @@ body > section {
   margin: 30px 30px 30px 30px;
 }
 
+.sponsors {
+  width: 500px;
+  margin: 30px 30px 30px 30px;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
