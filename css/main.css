@@ -144,6 +144,11 @@ body > section {
 .af-slate {
   background-color: #122c34;
 }
+
+.showings {
+  width: 300px;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
