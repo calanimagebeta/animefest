@@ -151,8 +151,13 @@ body > section {
 }
 
 .sponsors {
-  width: 500px;
+  width: 360px;
   margin: 30px 30px 30px 30px;
+}
+
+.sm-icons {
+  width: 50px;
+  margin: 10px 10px 10px 10px;
 }
 
 .embed-container {
