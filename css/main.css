@@ -146,7 +146,8 @@ body > section {
 }
 
 .showings {
-  width: 300px;
+  width: 350px;
+  margin: 30px 30px 30px 30px;
 }
 
 .embed-container {
