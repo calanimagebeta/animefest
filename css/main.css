@@ -145,6 +145,10 @@ body > section {
   background-color: #122c34;
 }
 
+.container{
+  min-height: 100%;
+}
+
 .showings {
   width: 350px;
   margin: 30px 30px 30px 30px;
@@ -479,6 +483,7 @@ body > section {
 }
 #title {
   font-size: 16px;
+  padding-bottom: 60px;
 }
 #title h1 {
   margin: 0;
@@ -842,7 +847,7 @@ ul.rss li::before {
 }
 
 #footer2 {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   width: 100%;
   padding-top: 30px;
