@@ -205,6 +205,14 @@ iframe{
   width: 95%;
 }
 
+#aatable{
+  font-family: "Kalos";
+  font-size:25px;
+  margin-left: 20px;
+  padding-top: 10px;
+  width: 60%;
+}
+
 .lead{
   font-family: "Kalos";
   font-size: 25px;
@@ -250,6 +258,10 @@ iframe{
   margin-top: 50px;
   margin-bottom: 30px;
   line-height: 0.8;
+}
+
+#contactend{
+  margin-bottom: 172px;
 }
 
 
