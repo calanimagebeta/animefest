@@ -204,6 +204,10 @@ iframe{
   padding-top: 70px;
 }
 
+#featuredheading{
+  margin-top: -35px !important;
+}
+
 #volunteerheading{
   margin-top: -30px !important;
 }
