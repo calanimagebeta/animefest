@@ -22,6 +22,11 @@ html,body{
   src: url("./fonts/SFButtacupLettering.ttf");
  }
 
+ @font-face {
+  font-family: "Gnu";
+  src: url("./fonts/gnuolane rg.ttf");
+ }
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -160,10 +165,10 @@ iframe{
 }
 
 .featurette-divider {
-  height: 1px;
+  height: 3px;
   background-color:  #e7e9ef;
   border: 5px;
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
 }
 
 .mid-divider {
@@ -172,12 +177,98 @@ iframe{
   border: 5px;
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
+  font-size: 50px !important;
   font-weight: 300;
   line-height: 1;
-  padding-top: 0;
-  margin-top: 0;
+  padding-top: -10px;
+  margin-top: -10px;
+}
+
+.align{
+  vertical-align: middle;
+  margin-top: -20px;
+}
+
+#preview{
+  text-align: center;
+  margin-bottom: 90px;
+  letter-spacing: 1px;
+}
+
+#intro{
+  text-align: center;
+}
+
+#programming {
+  padding-top: 70px;
+}
+
+#volunteerheading{
+  margin-top: -20px !important;
+}
+
+.homebtn{
+  background-color: #3167bf;
+  color: #ffffff;
+  font-family: "Kalos";
+  font-size: 25px;
+}
+
+.top{
+  padding-top: 100px;
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+#title{
+  font-family: "Gnu";
+  text-align: center;
+  font-size: 200px;
+  line-height: 0;
+  font-weight: bold;
+  margin-bottom: 90px;
+  letter-spacing: 6px;
+}
+
+#title2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+#preview2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #17336d;
+  letter-spacing: 2px;
+}
+
+#preview3{
+  margin-top: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.preview4{
+  font-family: "Butter";
+  font-size: 40px;
+  color: #17336d;
+}
+
+.preview4text{
+  font-family: "Kalos";
+  font-size: 25px;
+  color: #17336d;
+  line-height: 1;
+}
+
+#banner{
+  height: 50px;
+  background-color: #17336d;
 }
 
 #loc1{
@@ -248,6 +339,14 @@ iframe{
   margin-right: 20px;
   margin-left: 20px;
   line-height: 0.8;
+}
+
+.lead3{
+  font-family: "Kalos";
+  font-size: 35px;
+  margin-right: 20px;
+  margin-left: 20px;
+  line-height: 1;
 }
 
 .footer{
