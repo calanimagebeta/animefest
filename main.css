@@ -130,11 +130,11 @@ html,body{
 }
 
 .banner-caption h1 {
-	text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+	text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
 }
 
 .banner-caption h2 {
-	text-shadow: -2.5px 0 #ffffff, 0 2.5px #ffffff, 2.5px 0 #ffffff, 0 -2.5px #ffffff;
+	text-shadow: -2.5px 0 3px #ffffff, 0 2.5px 3px #ffffff, 2.5px 0 3px #ffffff, 0 -2.5px 3px #ffffff;
 }
 
 .banner-inner > .item > img{
@@ -308,7 +308,7 @@ iframe{
   font-size: 4vw;
   padding-top: 10%;
   margin-bottom: 10%;
-  text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+  text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff; 
 }
 
 #title{
@@ -318,8 +318,8 @@ iframe{
   line-height: 0;
   font-weight: bold;
   letter-spacing: 6px;
-  margin-bottom: 10%;
-  text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+  margin-bottom: 10%; 
+  text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff; 
 }
 
 #title2{
@@ -343,8 +343,8 @@ iframe{
 #preview3{
   font-size: 5vw;
   text-align: center;
-  letter-spacing: 2px;
-  text-shadow: -2.5px 0 #ffffff, 0 2.5px #ffffff, 2.5px 0 #ffffff, 0 -2.5px #ffffff;
+  letter-spacing: 2px;  
+  text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff; 
 }
 
 .preview4{
