@@ -3,8 +3,9 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  position: relative;
   color: #5a5a5a;
-  background-color: #c1d5f4;
+  background-color: #dae7ea;
 }
 
 html,body{
@@ -36,7 +37,7 @@ html,body{
   top: 0;
   right: 0;
   left: 0;
-  z-index: 20;
+  z-index: 200;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -58,7 +59,7 @@ html,body{
 .navbar-brand {
   font-family: "Kalos";
   font-weight: bold;
-  padding-left: 100px;
+  padding-left: 0px;
   font-size: 50px;
   vertical-align: middle;
   letter-spacing: 1.5px;
@@ -66,8 +67,8 @@ html,body{
 }
 
 .navbar {
-  background-color: #17336d;
-  border-bottom:8px solid #3167bf;
+  background-color: #174c6d;
+  border-bottom:8px solid #7fc4d1;
   padding-bottom:10px;
   /* remove rounded corners from navbar */
   -webkit-border-radius: 0 !important;
@@ -92,10 +93,13 @@ html,body{
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    background-color: #17336d;
-    color: #4778c6 !important;
+    background-color: #174c6d;
+    color: #f7f7af !important;
 }
 
+.icon-bar{
+	background-color: #ffffff;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -113,17 +117,96 @@ html,body{
   margin-left: 10px;
 }
 
+/* Home Content 
+------------------------- */
+/* TODO COPIED FROM CAROUSEL */
+.banner {
+	height: 900px;
+	margin-bottom: 60px;
+}
+
+.banner-caption {
+	z-index = 10;
+}
+
+.banner-caption h1 {
+	text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+}
+
+.banner-caption h2 {
+	text-shadow: -2.5px 0 #ffffff, 0 2.5px #ffffff, 2.5px 0 #ffffff, 0 -2.5px #ffffff;
+}
+
+.banner-inner > .item > img{
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 900px;
+	width: 1920px;
+	object-fit: cover;
+}
+
+.banner .item {
+	height: 900px;
+}
+
+.banner-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 900px;
+}
+
+
+
+
+
+
+
+
+#container {
+	width: 100%;
+	position: relative;
+	height: auto;
+}
+
+#banner-pic{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 15%;
+	object-fit: cover;
+	width: 100%;
+}
+
+#banner-info {
+	z-index: 100;
+	height: auto;
+	padding-top: 15%;
+}
+
+/* General Page Layout */
+#page-info {
+	padding-top: 25%;
+}
+
+
+
 
 /* Featurettes
 ------------------------- */
+#home-info {
+	padding-top: 0%;
+}
 .featurette{
-  padding-top: 0;
+
 }
 
 .featurette h2{
   font-family: "Butter";
   font-size: 40px;
-  color: #17336d;
+  color: #174c6d;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -131,7 +214,7 @@ html,body{
 hr{
   border: none;
   height: 4px;
-  background-color: #17336d;
+  background-color: #174c6d;
   margin-left: 0;
   margin-top: -1px;
 }
@@ -190,12 +273,6 @@ iframe{
   margin-top: -20px;
 }
 
-#preview{
-  text-align: center;
-  margin-bottom: 100px;
-  letter-spacing: 1px;
-}
-
 #intro{
   text-align: center;
 }
@@ -213,7 +290,7 @@ iframe{
 }
 
 .homebtn{
-  background-color: #3167bf;
+  background-color: #31b5bf;
   color: #ffffff;
   font-family: "Kalos";
   font-size: 25px;
@@ -225,54 +302,68 @@ iframe{
   padding-bottom: 50px;
 }
 
+#preview{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 4vw;
+  padding-top: 10%;
+  margin-bottom: 10%;
+  text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
+}
+
 #title{
   font-family: "Gnu";
   text-align: center;
-  font-size: 12.5vw;
+  font-size: 12vw;
   line-height: 0;
   font-weight: bold;
-  margin-bottom: 90px;
   letter-spacing: 6px;
+  margin-bottom: 10%;
+  text-shadow: -3px 0 #ffffff, 0 3px #ffffff, 3px 0 #ffffff, 0 -3px #ffffff;
 }
 
 #title2{
   text-align: center;
-  font-size: 50px;
-  margin-top: 50px;
+  font-size: 5vw;
+  margin-top: 10%;
   letter-spacing: 3px;
 }
 
 #preview2{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   color: #ffffff;
   text-align: center;
-  background-color: #17336d;
+  background-color: #174c6d;
   letter-spacing: 2px;
+  border-radius: 5px;
+  font-size: 5vw;
 }
 
 #preview3{
-  margin-top: 12px;
+  font-size: 5vw;
   text-align: center;
   letter-spacing: 2px;
+  text-shadow: -2.5px 0 #ffffff, 0 2.5px #ffffff, 2.5px 0 #ffffff, 0 -2.5px #ffffff;
 }
 
 .preview4{
   font-family: "Butter";
   font-size: 40px;
-  color: #17336d;
+  color: #174c6d;
 }
 
 .preview4text{
   font-family: "Kalos";
   font-size: 25px;
-  color: #17336d;
+  color: #174c6d;
   line-height: 1;
 }
 
 #banner{
   height: 50px;
-  background-color: #17336d;
+  background-color: #174c6d;
+
 }
 
 #loc1{
@@ -370,6 +461,27 @@ iframe{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 411px) {
+  /* From banner */
+  #banner-pic {
+	  padding-top: 5%;
+  }
+  #preview {
+	  padding-top: 5%;
+  } 
+
+  .navbar-brand {
+	  padding-left: 75px;
+  }
+
+  #home-info {
+	  padding-top: 5%;
+  }
+
+  #page-info {
+	  padding-top: 20%;
+  }
+}
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
@@ -383,6 +495,10 @@ iframe{
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .navbar-brand {
+	  padding-left: 100px;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
@@ -400,11 +516,72 @@ iframe{
   .featurette-heading {
     font-size: 50px;
   }
+
+  /* From banner */
+  #preview {
+	  padding-top: 7%;
+  } 
+
+  #home-info {
+	  padding-top: 15%;
+  }
+
+  #page-info {
+	  padding-top: 20%;
+  }
 }
 
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
+  }
+
+  #banner-pic {
+	  padding-top: 0;
+  }
+
+  #preview {
+	  padding-top: 0;
+	  font-size: 70px;
+  }
+
+  #title {
+	  padding-top: 15px;
+	  padding-bottom: 15px;
+	  font-size: 170px;
+  }
+
+  #preview2 {
+	  font-size: 42px;
+  }
+
+  #preview3 {
+	  font-size: 50px;
+	  padding-bottom: 0%;
+  }
+
+  #home-info {
+	  padding-top: 20%;
+  }
+
+  #page-info {
+	  padding-top: 0%;
+  }
+}
+
+@media (min-width: 1270px) {
+  #preview3 {
+	  padding-bottom: 0%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #preview {
+	  padding-top: 10%;
+  }
+
+  #preview3 {
+	  padding-bottom: 15%;
   }
 }
 

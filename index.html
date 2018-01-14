@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="./images/ico/favicon.ico">
 
-    <title>Animefest 2017</title>
+    <title>Animefest 2018</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -71,9 +71,10 @@
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
-    <div class="top">
-      <div class="row featurette">
-        <div class= "col-md-8 col-md-offset-2">
+    <!--- Original header
+    <div class="top col-xs-12">
+      <div class="featurette">
+        <div class= "col-xs-8 col-xs-offset-2 container">
           <h2 id="preview">Cal Animage Beta presents</h2>
           <h2 id="title">ANIMEFEST</h2>
           <h2 id="title2"> UC San Diego's Anime Convention</h2>
@@ -82,10 +83,23 @@
         </div>
       </div>
     </div>
+    --->
 
-    <div id="banner"> </div>
-    
-    <div class="container marketing">
+
+    <div id="container" class="container featurette">
+	<img id="banner-pic" class="center-block" src="./images/2018banner.jpg">
+	<div class="container">
+	  <div id="banner-info" class= "col-xs-10 col-xs-offset-2">
+            <h2 id="preview">Cal Animage Beta presents</h2>
+            <h2 id="title">ANIMEFEST</h2>
+	    <h2 id="preview2"> Sunday February 11th, 2018 </h2>
+            <h2 id="preview3"> Price Center, UC San Diego </h2>
+          </div>
+	</div>
+    </div>
+
+
+    <div id="home-info" class="container marketing">
 
        <!-- Three columns of text below the carousel -->
       <div class="row" id="programming">
@@ -93,19 +107,19 @@
           <img class="img-circle" src="./images/AA2.jpg" alt="Artist Alley" width="275" height="275">
           <h2 class="preview4">Artist Alley</h2>
           <p class="preview4text">Come to Artist Alley from 11am to 6pm to browse fanmade merchandise drawn or designed by local artists!</p>
-          <p><a class="btn btn-block homebtn" href="exhibitors.html" role="button">More info</a></p>
+          <p><a class="btn btn-block homebtn" href="exhibitors.html" role="button">More info coming soon!</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="./images/pan1.jpg" alt="Panels" width="275" height="275">
           <h2 class="preview4">Panels</h2>
           <p class="preview4text">Want to learn something new about Japan, anime or comic culture? Attend a fan-hosted panel!</p>
-          <p><a class="btn btn-block homebtn" href="panels.html" role="button">More info</a></p>
+          <p><a class="btn btn-block homebtn" href="panels.html" role="button">More info coming soon!</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="./images/main1.jpg" alt="Performances" width="275" height="275">
           <h2 class="preview4">Performances</h2>
           <p class="preview4text">Come watch the performances on our main stage! Featuring UCSD's own Intermission orchestra and more! </p>
-          <p><a class="btn btn-block homebtn" href="mainstage.html" role="button">More info</a></p>
+          <p><a class="btn btn-block homebtn" href="mainstage.html" role="button">More info coming soon!</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -114,13 +128,17 @@
       <div class="row featurette" id="first">
         <div class="col-md-7 align">
           <h2 class="featurette-heading">Animefest Latest Updates</h2>
-          <p class="lead3">We are looking for submissions for our AMV showcase and Anime Speed Dating events! To learn more about these events, please visit our <a href="showings.html">showings page</a>! Submit an AMV <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6xNgvYIypJe0IpCs21R7rBJ6Dx0wPrWS9hQHlz97rvSc5xg/viewform?c=0&w=1">here</a> or submit for Anime Speed Dating <a href="https://docs.google.com/forms/d/e/1FAIpQLSewglMXbpSMtFrNyOAI2_I4y83gG2fb8Kk8rYauVmTKj49hnw/viewform?c=0&w=1"> here</a>.</p>
+          <p class="lead3">
+	  Programming and exhibitors information will be updated in the coming weeks leading up to the convention. Watch for those updates coming soon!
+	  <!--We are looking for submissions for our AMV showcase and Anime Speed Dating events! To learn more about these events, please visit our <a href="showings.html">showings page</a>! Submit an AMV <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6xNgvYIypJe0IpCs21R7rBJ6Dx0wPrWS9hQHlz97rvSc5xg/viewform?c=0&w=1">here</a> or submit for Anime Speed Dating <a href="https://docs.google.com/forms/d/e/1FAIpQLSewglMXbpSMtFrNyOAI2_I4y83gG2fb8Kk8rYauVmTKj49hnw/viewform?c=0&w=1"> here</a>-->
+	   </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="./images/pokeballs.jpg" alt="Latest Updates">
         </div>
       </div>
 
+      <!-- FEATURED EVENT SECTION TODO
       <hr class="featurette-divider">
 
       <div class="row featurette">
@@ -132,8 +150,11 @@
           <img class="featurette-image img-responsive center-block" src="./images/Per1.jpg" alt="Featured Event">
         </div>
       </div>
+      -->
 
       <hr class="featurette-divider">
+
+      <!-- UPDATE VOLUNTEER INFO TODO
 
       <div class="row featurette">
         <div class="col-md-7" id="volunteerheading">
@@ -144,8 +165,10 @@
           <img class="featurette-image img-responsive center-block" src="./images/Cos1.jpg" alt="Volunteer">
         </div>
       </div>
+
       <hr class="featurette-divider">
-      <p class="footer">(c) 2017 Cal Animage Beta Animefest.</p>
+      -->
+      <p class="footer">(c) 2018 Cal Animage Beta Animefest.</p>
 
       <!-- /END THE FEATURETTES -->
 
@@ -162,5 +185,8 @@
     <script src="./assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="main.js"></script>
   </body>
 </html>
