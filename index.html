@@ -29,6 +29,19 @@
 
     <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
+
+    <!-- For tipuesearch 
+    <link rel="stylesheet" href="./assets/tipuesearch/css/tipuesearch.css">
+    {% if page.tipue_search_active or layout.tipue_search_active %}
+    <link rel="stylesheet" href="{{ "./assets/tipuesearch/css/normalize.css" | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="{{ "./assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ "./assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
+    <script src="{{ "./assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+    <script src="{{ "./assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+    {% endif %}
+    -->
+
   </head>
 
 <!-- NAVBAR
@@ -50,6 +63,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
+		</li>
                 <li><a href="location.html">Location</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming<span class="caret"></span></a>
@@ -152,8 +166,6 @@
       </div>
       -->
 
-      <hr class="featurette-divider">
-
       <!-- UPDATE VOLUNTEER INFO TODO
 
       <div class="row featurette">
@@ -168,11 +180,28 @@
 
       <hr class="featurette-divider">
       -->
-      <p class="footer">(c) 2018 Cal Animage Beta Animefest.</p>
+
+      
+
+      
 
       <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
+    <div class="sponsors-c">
+        <div class="sponsors-p">
+	  <div class="sponsors">
+		  <h1 id="sponsor-title" data-default-title="Special Thanks to Our Sponsors!">Special Thanks to Our Sponsors!</h1>
+		  <ul>
+			  <span data-group-title="Kotobukiya"><li><img src="./images/koto.png"></li></span>
+			  <span data-group-title="Ultra Tokyo Connection"><li><img src="./images/utc.png"></li></span>
+		  </ul>
+	  </div>
+	</div>
+    </div> <!-- end sponsors -->
+
+      <p class="footer">(c) 2018 Cal Animage Beta Animefest.</p>
+
 
 
     <!-- Bootstrap core JavaScript

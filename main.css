@@ -458,6 +458,96 @@ iframe{
   margin-bottom: 172px;
 }
 
+/* SPONSORS
+-------------------------------------------------- */
+.sponsors-c {
+  width: 100%;
+}
+
+.sponsors-p {
+  padding: 0px;
+  background: #0a2130;
+  border-radius: 0 0 6px 6px;
+  width: 100%;
+}
+
+.sponsors {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 10px;
+  z-index: 15;
+  margin-top: 0px;
+  z-index: 1 !important;
+  text-align: center !important;
+  z-index: 99;
+}
+
+#sponsor-title {
+  font-family: Kalos;
+  color: #ffffff;
+}
+
+.sponsors h1 {
+  font-weight: 300 !important;
+  font-size: 5vw;
+}
+
+.sponsors h1 > strong {
+  font-weight: 700 !important;
+}
+
+.sponsors img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  max-width: 120px;
+}
+
+.sponsors ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+.sponsors ul.enter > span:not(.hover) {
+  opacity: .1;
+}
+
+.sponsors ul.enter > span.hover {
+  opacity: 1;
+  box-shadow: inset -1px 0 0 0 rgba(0, 0, 0, .1), inset 1px 0 0 0 rgba(0, 0, 0, .1);
+}
+
+.sponsors ul span {
+  display: inline !important;
+
+  word-break: break-all;
+  word-wrap: break-word;
+  margin: 0px;
+  padding: 26px 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.sponsors ul span,
+.sponsors ul span li > a {
+  cursor: default !important;
+  border: none !important;
+  outline: 0 !important;
+  text-decoration: none !important;
+}
+
+.sponsors ul li {
+  margin: 35px 16px 0px;
+  display: inline-block;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -483,6 +573,12 @@ iframe{
   }
 }
 
+@media(max-width: 750px) {
+  .sponsors img { max-width: 70px; }
+  .sponsors ul li {
+    margin: 15px 5px 0px;
+  }
+}
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
@@ -566,6 +662,10 @@ iframe{
 
   #page-info {
 	  padding-top: 0%;
+  }
+
+  .sponsors h1 {
+	  font-size: 55px;
   }
 }
 
