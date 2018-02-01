@@ -224,6 +224,15 @@ hr{
   color: #3167bf !important;
 }
 
+.subsubheader {
+  font-size: 25px !important;
+  color: #3167bf !important;
+}
+
+.table-striped {
+  background-color: #cce3e8;
+}
+
 iframe{
   margin: 0;
 }
