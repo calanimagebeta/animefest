@@ -560,6 +560,11 @@ iframe{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 100px) {
+  #page-info {
+     padding-top: 30%;	  
+  }
+}
 @media (min-width: 411px) {
   /* From banner */
   #banner-pic {
