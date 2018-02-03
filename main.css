@@ -227,7 +227,22 @@ hr{
 iframe{
   margin: 0;
   width: 100%;
-  height: 1000px;
+  height: 100030;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top 30px;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .col-md-10{
@@ -251,7 +266,7 @@ iframe{
 
 .featurette-divider {
   height: 3px;
-  background-color:  #e7e9ef;
+  background-color:  #ffffff;
   border: 5px;
   margin: 50px 0; /* Space out the Bootstrap <hr> more */
 }
