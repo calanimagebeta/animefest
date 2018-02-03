@@ -491,7 +491,6 @@ hr{
 .sponsors-p {
   padding: 0px;
   background: #0a2130;
-  border-radius: 0 0 6px 6px;
   width: 100%;
 }
 
@@ -513,7 +512,7 @@ hr{
 
 .sponsors h1 {
   font-weight: 300 !important;
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 .sponsors h1 > strong {
@@ -526,7 +525,7 @@ hr{
   border-radius: 3px;
   height: auto;
   vertical-align: middle;
-  max-width: 120px;
+  max-width: 200px;
 }
 
 .sponsors ul {
