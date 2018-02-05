@@ -420,7 +420,7 @@ hr{
 #panelstable{
   font-family: "Kalos";
   font-size:25px;
-  margin-left: 30px;
+  margin-left: 0px;
   width: 95%;
 }
 
@@ -615,6 +615,10 @@ hr{
   .sponsors ul li {
     margin: 15px 5px 0px;
   }
+  #home-info {
+     padding-top: 3%;
+  }
+
 }
 @media (min-width: 768px) {
   /* Navbar positioning foo */
@@ -656,7 +660,7 @@ hr{
   } 
 
   #home-info {
-	  padding-top: 15%;
+	  padding-top: 5%;
   }
 
   #page-info {
@@ -694,7 +698,7 @@ hr{
   }
 
   #home-info {
-	  padding-top: 20%;
+	  padding-top: 1%;
   }
 
   #page-info {
@@ -704,11 +708,24 @@ hr{
   .sponsors h1 {
 	  font-size: 55px;
   }
+  #panelstable {
+    margin-left: 30px;
+  }
+
+}
+
+@media (min-width: 1100px) {
+  #home-info {
+	  padding-top: 10%;
+  }
 }
 
 @media (min-width: 1270px) {
   #preview3 {
 	  padding-bottom: 0%;
+  }
+  #home-info {
+	  padding-top: 5%;
   }
 }
 
@@ -719,6 +736,16 @@ hr{
 
   #preview3 {
 	  padding-bottom: 15%;
+  }
+
+  #home-info {
+	  padding-top: 8%;
+  }
+}
+
+@media (min-width: 1500px) {
+  #home-info {
+	  padding-top: 15%;`
   }
 }
 
