@@ -117,6 +117,7 @@ html,body{
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
+  width: 50%;
 }
 .marketing h2 {
   font-weight: normal;
