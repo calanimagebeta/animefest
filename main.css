@@ -117,6 +117,7 @@ html,body{
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
+  width: 50%;
 }
 .marketing h2 {
   font-weight: normal;
@@ -165,6 +166,12 @@ html,body{
 	left: 0;
 	min-width: 100%;
 	height: 900px;
+}
+
+.links {
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
 
 #container {
