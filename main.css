@@ -168,6 +168,12 @@ html,body{
 	height: 900px;
 }
 
+.links {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
 #container {
 	width: 100%;
 	position: relative;
