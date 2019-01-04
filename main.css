@@ -130,10 +130,6 @@ html,body{
 /* Home Content 
 ------------------------- */
 /* TODO COPIED FROM CAROUSEL */
-.banner {
-	height: 900px;
-	margin-bottom: 60px;
-}
 
 .banner-caption {
 	z-index = 10;
@@ -180,24 +176,73 @@ html,body{
 	height: auto;
 }
 
-#banner-pic{
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding-top: 15%;
-	object-fit: cover;
-	width: 100%;
+.banner-container {
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+#banner-info-container {
+    text-align: center;
+    height: auto;
+    width: 100%;
 }
 
 #banner-info {
-	z-index: 100;
-	height: auto;
-	padding-top: 15%;
+    height: auto;
+    width: 60%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+
+#banner-info > * {
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
+
+#preview {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff;
+}
+
+#title {
+    font-family: "Gnu";
+    text-align: center;
+    font-size: 12vw;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff;
+}
+
+#preview2 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #174c6d;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 5vw;
+}
+
+#preview3 {
+    font-size: 5vw;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff;
 }
 
 /* General Page Layout */
 #page-info {
-	padding-top: 25%;
+	padding-top: 10%;
 }
 
 
@@ -241,10 +286,10 @@ hr{
 }
 
 .video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top 30px;
-  height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top 30px;
+    height: 0;
 }
 
 .video-wrapper iframe {
@@ -342,49 +387,11 @@ hr{
   padding-bottom: 50px;
 }
 
-#preview{
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 4vw;
-  padding-top: 10%;
-  margin-bottom: 10%;
-  text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff; 
-}
-
-#title{
-  font-family: "Gnu";
-  text-align: center;
-  font-size: 12vw;
-  line-height: 0;
-  font-weight: bold;
-  letter-spacing: 6px;
-  margin-bottom: 10%; 
-  text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff; 
-}
-
-#title2{
-  text-align: center;
-  font-size: 5vw;
-  margin-top: 10%;
-  letter-spacing: 3px;
-}
-
-#preview2{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #ffffff;
-  text-align: center;
-  background-color: #174c6d;
-  letter-spacing: 2px;
-  border-radius: 5px;
-  font-size: 5vw;
-}
-
-#preview3{
-  font-size: 5vw;
-  text-align: center;
-  letter-spacing: 2px;  
-  text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff; 
+#title2 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 10%;
+    letter-spacing: 3px;
 }
 
 .preview4{
@@ -398,12 +405,6 @@ hr{
   font-size: 25px;
   color: #174c6d;
   line-height: 1;
-}
-
-#banner{
-  height: 50px;
-  background-color: #174c6d;
-
 }
 
 #loc1{
@@ -597,12 +598,6 @@ hr{
 }
 @media (min-width: 411px) {
   /* From banner */
-  #banner-pic {
-	  padding-top: 5%;
-  }
-  #preview {
-	  padding-top: 5%;
-  } 
 
   .navbar-brand {
 	  padding-left: 75px;
@@ -680,10 +675,6 @@ hr{
     margin-top: 120px;
   }
 
-  #banner-pic {
-	  padding-top: 0;
-  }
-
   #preview {
 	  padding-top: 0;
 	  font-size: 70px;
@@ -723,36 +714,26 @@ hr{
 
 @media (min-width: 1100px) {
   #home-info {
-	  padding-top: 10%;
+	  padding-top: 2%;
   }
 }
 
 @media (min-width: 1270px) {
-  #preview3 {
-	  padding-bottom: 0%;
-  }
   #home-info {
-	  padding-top: 5%;
+	  padding-top: 2%;
   }
 }
 
 @media (min-width: 1280px) {
-  #preview {
-	  padding-top: 10%;
-  }
-
-  #preview3 {
-	  padding-bottom: 15%;
-  }
 
   #home-info {
-	  padding-top: 8%;
+	  padding-top: 2%;
   }
 }
 
 @media (min-width: 1500px) {
   #home-info {
-	  padding-top: 15%;`
+	  padding-top: 2%;`
   }
 }
 
