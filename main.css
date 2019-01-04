@@ -197,7 +197,7 @@ html,body{
 
 #banner-info {
     height: auto;
-    width: 60%;
+    width: 70%;
     margin-top: 1%;
     margin-bottom: 1%;
     display: inline-block;
@@ -206,22 +206,6 @@ html,body{
 #banner-info > * {
     margin-top: 0.5%;
     margin-bottom: 0.5%;
-}
-
-#preview {
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 4vw;
-    text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
-}
-
-#title {
-    font-family: "Gnu";
-    text-align: center;
-    font-size: 12vw;
-    font-weight: bold;
-    letter-spacing: 6px;
-    text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
 }
 
 #preview2 {
@@ -238,7 +222,7 @@ html,body{
     font-size: 4vw;
     text-align: center;
     letter-spacing: 2px;
-    text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
+    text-shadow: -1px 0 3px #ffffff, 0 1px 3px #ffffff, 1px 0 3px #ffffff, 0 -1px 3px #ffffff;
 }
 
 /* General Page Layout */
