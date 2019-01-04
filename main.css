@@ -204,15 +204,15 @@ html,body{
 }
 
 #banner-info > * {
-    margin-top: 0.25%;
-    margin-bottom: 0.25%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 #preview {
     text-align: center;
     letter-spacing: 1px;
     font-size: 4vw;
-    text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff;
+    text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
 }
 
 #title {
@@ -221,7 +221,7 @@ html,body{
     font-size: 12vw;
     font-weight: bold;
     letter-spacing: 6px;
-    text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff;
+    text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
 }
 
 #preview2 {
@@ -230,14 +230,15 @@ html,body{
     background-color: #174c6d;
     letter-spacing: 2px;
     border-radius: 5px;
-    font-size: 5vw;
+    font-size: 4vw;
+    padding: 5px;
 }
 
 #preview3 {
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
     letter-spacing: 2px;
-    text-shadow: -3px 0 7px #ffffff, 0 3px 7px #ffffff, 3px 0 7px #ffffff, 0 -3px 7px #ffffff;
+    text-shadow: -3px 0 3px #ffffff, 0 3px 3px #ffffff, 3px 0 3px #ffffff, 0 -3px 3px #ffffff;
 }
 
 /* General Page Layout */
@@ -657,9 +658,6 @@ hr{
   }
 
   /* From banner */
-  #preview {
-	  padding-top: 7%;
-  } 
 
   #home-info {
 	  padding-top: 5%;
@@ -673,26 +671,6 @@ hr{
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
-  }
-
-  #preview {
-	  padding-top: 0;
-	  font-size: 70px;
-  }
-
-  #title {
-	  padding-top: 15px;
-	  padding-bottom: 15px;
-	  font-size: 170px;
-  }
-
-  #preview2 {
-	  font-size: 42px;
-  }
-
-  #preview3 {
-	  font-size: 50px;
-	  padding-bottom: 0%;
   }
 
   #home-info {
