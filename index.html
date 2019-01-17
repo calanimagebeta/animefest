@@ -64,7 +64,24 @@
 	================================================== -->
 
 	<div class="banner-container">
-		<img id="banner-pic" class="banner" src="./images/banner.png">
+		<img id="banner-pic" class="banner"
+			 srcset="./images/banner-256w.png 256w,
+			         ./images/banner-426w.png 426w,
+			         ./images/banner-640w.png 640w,
+			         ./images/banner-848w.png 848w,
+			         ./images/banner-1280w.png 1280w,
+			         ./images/banner-1920w.png 1920w,
+			         ./images/banner-2560w.png 2560w,
+			         ./images/banner-3600w.png 3600w"
+			 sizes="(max-width: 300px)  256px,
+			        (max-width: 500px)  426px,
+			        (max-width: 700px)  640px,
+			        (max-width: 900px)  848px,
+			        (max-width: 1300px) 1280px,
+			        (max-width: 2000px) 2000px,
+			        (max-width: 2600px) 2560px,
+			                            3600px"
+			 src="./images/banner-3600w.png" alt="Event banner">
 	</div>
 
 	<div id="home-info" class="container marketing">

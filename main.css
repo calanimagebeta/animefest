@@ -183,7 +183,7 @@ html,body{
 }
 
 .banner {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
