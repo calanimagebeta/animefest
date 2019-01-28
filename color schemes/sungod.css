@@ -1,12 +1,11 @@
 /* Color Scheme Map:
 -- To change, Ctrl-F and replace all--
-Main Dominant: 253E56
-Main Accent: EDD384
-Site BG: F2EDEA
+Main Dominant: 2E4057
+Main Accent: F5AF38
+Site BG: F1F2EB
 Subheader: 39669C
 Sponsor BG: 1A2238
-Home Button: C96246
-Home Button hover: 91D3E0
+Home Button: D33040
 
 */
 
@@ -17,7 +16,7 @@ Home Button hover: 91D3E0
 body {
   position: relative;
   color: #5a5a5a;
-  background-color: #F2EDEA;
+  background-color: #F1F2EB;
 }
 
 html,body{
@@ -79,8 +78,8 @@ html,body{
 }
 
 .navbar {
-  background-color: #253E56;
-  border-bottom:8px solid #EDD384;
+  background-color: #2E4057;
+  border-bottom:8px solid #F5AF38;
   padding-bottom:10px;
   /* remove rounded corners from navbar */
   -webkit-border-radius: 0 !important;
@@ -102,7 +101,7 @@ html,body{
 
 .dropdown-menu{
   font-size: 27px;
-  background-color: #253E56;
+  background-color: #2E4057;
 }
 
 .dropdown-menu li a{
@@ -114,8 +113,8 @@ html,body{
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    background-color: #253E56;
-    color: #EDD384 !important;
+    background-color: #2E4057;
+    color: #F5AF38 !important;
 }
 
 .icon-bar{
@@ -223,7 +222,7 @@ html,body{
 #preview2 {
     color: #ffffff;
     text-align: center;
-    background-color: #253E56;
+    background-color: #2E4057;
     letter-spacing: 2px;
     border-radius: 5px;
     font-size: 4vw;
@@ -255,7 +254,7 @@ html,body{
 .featurette h2{
   font-family: "Butter";
   font-size: 40px;
-  color: #253E56;
+  color: #2E4057;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -263,7 +262,7 @@ html,body{
 hr{
   border: none;
   height: 4px;
-  background-color: #253E56;
+  background-color: #2E4057;
   margin-left: 0;
   margin-top: -1px;
 }
@@ -279,7 +278,7 @@ hr{
 }
 
 .table-striped {
- background-color: #F2EDEA;
+ background-color: #F1F2EB;
 }
 
 .video-wrapper {
@@ -425,14 +424,10 @@ hr{
 }
 
 .homebtn{
-  background-color: #C96246;
+  background-color: #D33040;
   color: #ffffff;
   font-family: "Kalos";
   font-size: 25px;
-}
-
-.homebtn:hover{
-  background-color: #91D3E0;
 }
 
 .top{
@@ -451,13 +446,13 @@ hr{
 .preview4{
   font-family: "Butter";
   font-size: 40px;
-  color: #253E56;
+  color: #2E4057;
 }
 
 .preview4text{
   font-family: "Kalos";
   font-size: 25px;
-  color: #253E56;
+  color: #2E4057;
   line-height: 1;
 }
 

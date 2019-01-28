@@ -1,15 +1,3 @@
-/* Color Scheme Map:
--- To change, Ctrl-F and replace all--
-Main Dominant: 253E56
-Main Accent: EDD384
-Site BG: F2EDEA
-Subheader: 39669C
-Sponsor BG: 1A2238
-Home Button: C96246
-Home Button hover: 91D3E0
-
-*/
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -17,7 +5,7 @@ Home Button hover: 91D3E0
 body {
   position: relative;
   color: #5a5a5a;
-  background-color: #F2EDEA;
+  background-color: #dae7ea;
 }
 
 html,body{
@@ -79,8 +67,8 @@ html,body{
 }
 
 .navbar {
-  background-color: #253E56;
-  border-bottom:8px solid #EDD384;
+  background-color: #174c6d;
+  border-bottom:8px solid #7fc4d1;
   padding-bottom:10px;
   /* remove rounded corners from navbar */
   -webkit-border-radius: 0 !important;
@@ -102,7 +90,7 @@ html,body{
 
 .dropdown-menu{
   font-size: 27px;
-  background-color: #253E56;
+  background-color: #174c6d;
 }
 
 .dropdown-menu li a{
@@ -114,8 +102,8 @@ html,body{
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    background-color: #253E56;
-    color: #EDD384 !important;
+    background-color: #174c6d;
+    color: #f7f7af !important;
 }
 
 .icon-bar{
@@ -223,7 +211,7 @@ html,body{
 #preview2 {
     color: #ffffff;
     text-align: center;
-    background-color: #253E56;
+    background-color: #174c6d;
     letter-spacing: 2px;
     border-radius: 5px;
     font-size: 4vw;
@@ -255,7 +243,7 @@ html,body{
 .featurette h2{
   font-family: "Butter";
   font-size: 40px;
-  color: #253E56;
+  color: #174c6d;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -263,23 +251,23 @@ html,body{
 hr{
   border: none;
   height: 4px;
-  background-color: #253E56;
+  background-color: #174c6d;
   margin-left: 0;
   margin-top: -1px;
 }
 
 .subheader{
   font-size: 35px !important;
-  color: #39669C !important;
+  color: #3167bf !important;
 }
 
 .subsubheader {
   font-size: 25px !important;
-  color: #39669C !important;
+  color: #3167bf !important;
 }
 
 .table-striped {
- background-color: #F2EDEA;
+ background-color: #dae7ea;
 }
 
 .video-wrapper {
@@ -425,14 +413,10 @@ hr{
 }
 
 .homebtn{
-  background-color: #C96246;
+  background-color: #31b5bf;
   color: #ffffff;
   font-family: "Kalos";
   font-size: 25px;
-}
-
-.homebtn:hover{
-  background-color: #91D3E0;
 }
 
 .top{
@@ -451,13 +435,13 @@ hr{
 .preview4{
   font-family: "Butter";
   font-size: 40px;
-  color: #253E56;
+  color: #174c6d;
 }
 
 .preview4text{
   font-family: "Kalos";
   font-size: 25px;
-  color: #253E56;
+  color: #174c6d;
   line-height: 1;
 }
 
@@ -563,7 +547,7 @@ hr{
 
 .sponsors-p {
   padding: 0px;
-  background: #1A2238;
+  background: #0a2130;
   width: 100%;
 }
 
