@@ -556,6 +556,40 @@ hr{
   margin-bottom: 172px;
 }
 
+/* Generic 100% box
+-------------------------------------------------- */
+.box-container {
+  width: 100%;
+  padding: 0px;
+}
+
+.box-bg {
+  padding: 20px;
+  background: #1A2238;
+  width: 100%;
+}
+
+.box-btn {
+  background-color: #EDD384;
+  color: #111111;
+  font-family: "Kalos";
+  font-size: 25px;
+}
+
+.box-btn:hover{
+  background-color: #C96246;
+  color: #FFFFFF;
+}
+
+#box-heading {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#box-desc {
+  text-align: center;
+  color: #888899;
+}
 
 
 /* SPONSORS
@@ -653,7 +687,7 @@ hr{
 -------------------------------------------------- */
 @media (min-width: 100px) {
   #page-info {
-     padding-top: 30%;
+     padding-top: 10%;
   }
 }
 @media (min-width: 411px) {
@@ -670,6 +704,8 @@ hr{
   #page-info {
 	  padding-top: 20%;
   }
+
+
 }
 
 @media(max-width: 750px) {
@@ -723,7 +759,7 @@ hr{
   }
 
   #page-info {
-	  padding-top: 20%;
+	  padding-top: 10%;
   }
 }
 
