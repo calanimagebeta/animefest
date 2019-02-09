@@ -759,7 +759,7 @@ hr{
   }
 
   #page-info {
-	  padding-top: 10%;
+	  padding-top: 25%;
   }
 }
 
@@ -772,9 +772,7 @@ hr{
 	  padding-top: 1%;
   }
 
-  #page-info {
-	  padding-top: 0%;
-  }
+
 
   .sponsors h1 {
 	  font-size: 55px;
@@ -782,12 +780,18 @@ hr{
   #panelstable {
     margin-left: 30px;
   }
+  #page-info{
+    padding-top: 10%;
+  }
 
 }
 
 @media (min-width: 1100px) {
   #home-info {
 	  padding-top: 2%;
+  }
+  #page-info {
+    padding-top: 0;
   }
 }
 
