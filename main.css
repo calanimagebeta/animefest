@@ -581,6 +581,30 @@ hr{
   color: #FFFFFF;
 }
 
+#box-heading-twitter {
+  text-align: center;
+  color: #1A2238;
+}
+
+#box-desc-twitter {
+  text-align: center;
+  color: #444455;
+}
+
+#box-bg-twitter {
+  background: #91D3E0;
+}
+
+#box-btn-twitter {
+  background-color: #C96246;
+  color: #FFFFFF;
+}
+
+#box-btn-twitter:hover{
+  background-color: #00aced;
+  color: #000000;
+}
+
 #box-heading {
   text-align: center;
   color: #FFFFFF;
