@@ -82,8 +82,10 @@ html,body{
 }
 
 .navbar {
-  background-color: #253E56;
-  border-bottom:8px solid #EDD384;
+  /*background-color: #253E56; dark blue*/
+  background-color: #0087FF;
+  /*border-bottom:8px solid #EDD384;*/ 
+  border-bottom:8px solid #FFDE27;
   padding-bottom:10px;
   /* remove rounded corners from navbar */
   -webkit-border-radius: 0 !important;
@@ -117,7 +119,8 @@ html,body{
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    background-color: #253E56;
+  background-color: #0087FF;
+  /*background-color: #253E56; light yellow */
     color: #EDD384 !important;
 }
 
