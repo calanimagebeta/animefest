@@ -83,9 +83,9 @@ html,body{
 
 .navbar {
   /*background-color: #253E56; dark blue*/
-  background-color: #0087FF;
-  /*border-bottom:8px solid #EDD384;*/ 
-  border-bottom:8px solid #FFDE27;
+  background-color: #2B859F;
+  /*border-bottom:8px solid #EDD384;*/
+  border-bottom:8px solid #FFDE3F;
   padding-bottom:10px;
   /* remove rounded corners from navbar */
   -webkit-border-radius: 0 !important;
@@ -107,7 +107,7 @@ html,body{
 
 .dropdown-menu{
   font-size: 27px;
-  background-color: #253E56;
+  background-color: #2B859F;
 }
 
 .dropdown-menu li a{
@@ -229,7 +229,7 @@ html,body{
 #preview2 {
     color: #ffffff;
     text-align: center;
-    background-color: #253E56;
+    background-color: #2B859F;
     letter-spacing: 2px;
     border-radius: 5px;
     font-size: 4vw;
@@ -261,7 +261,7 @@ html,body{
 .featurette h2{
   font-family: "Butter";
   font-size: 40px;
-  color: #253E56;
+  color: #2B859F;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -269,7 +269,7 @@ html,body{
 hr{
   border: none;
   height: 4px;
-  background-color: #253E56;
+  background-color: #2B859F;
   margin-left: 0;
   margin-top: -1px;
 }
@@ -457,13 +457,13 @@ hr{
 .preview4{
   font-family: "Butter";
   font-size: 40px;
-  color: #253E56;
+  color: #2B859F;
 }
 
 .preview4text{
   font-family: "Kalos";
   font-size: 25px;
-  color: #253E56;
+  color: #2B859F;
   line-height: 1;
 }
 
@@ -568,12 +568,12 @@ hr{
 
 .box-bg {
   padding: 20px;
-  background: #1A2238;
+  background: #2B859F;
   width: 100%;
 }
 
 .box-btn {
-  background-color: #EDD384;
+  background-color: #2B859F;
   color: #111111;
   font-family: "Kalos";
   font-size: 25px;
@@ -591,11 +591,11 @@ hr{
 
 #box-desc-twitter {
   text-align: center;
-  color: #444455;
+  color: #1A2238;
 }
 
 #box-bg-twitter {
-  background: #91D3E0;
+  background: #FFDE3F;
 }
 
 #box-btn-twitter {
@@ -615,7 +615,7 @@ hr{
 
 #box-desc {
   text-align: center;
-  color: #888899;
+  color: #FFFFFF;
 }
 
 
@@ -627,7 +627,7 @@ hr{
 
 .sponsors-p {
   padding: 0px;
-  background: #1A2238;
+  background: #2B859F;
   width: 100%;
 }
 
