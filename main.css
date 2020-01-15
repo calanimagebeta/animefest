@@ -83,9 +83,12 @@ html,body{
 
 .navbar {
   /*background-color: #253E56; dark blue*/
-  background-color: #2B859F;
-  /*border-bottom:8px solid #EDD384;*/
-  border-bottom:8px solid #FFDE3F;
+  /*background-color: #2B859F; nautical blue*/
+  background-color: #0A85C7;
+  border-bottom:8px solid #FFE100;
+  /*border-bottom:8px solid #EDD384; new yellow*/
+  /*border-bottom:8px solid #FFDE3F;*/
+
   padding-bottom:10px;
   /* remove rounded corners from navbar */
   -webkit-border-radius: 0 !important;
@@ -107,7 +110,7 @@ html,body{
 
 .dropdown-menu{
   font-size: 27px;
-  background-color: #2B859F;
+  background-color: #0A85C7;
 }
 
 .dropdown-menu li a{
@@ -229,7 +232,7 @@ html,body{
 #preview2 {
     color: #ffffff;
     text-align: center;
-    background-color: #2B859F;
+    background-color: #0A85C7;
     letter-spacing: 2px;
     border-radius: 5px;
     font-size: 4vw;
@@ -261,7 +264,7 @@ html,body{
 .featurette h2{
   font-family: "Butter";
   font-size: 40px;
-  color: #2B859F;
+  color: #0A85C7;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -269,7 +272,7 @@ html,body{
 hr{
   border: none;
   height: 4px;
-  background-color: #2B859F;
+  background-color: #0A85C7;
   margin-left: 0;
   margin-top: -1px;
 }
@@ -457,13 +460,13 @@ hr{
 .preview4{
   font-family: "Butter";
   font-size: 40px;
-  color: #2B859F;
+  color: #0A85C7;
 }
 
 .preview4text{
   font-family: "Kalos";
   font-size: 25px;
-  color: #2B859F;
+  color: #0A85C7;
   line-height: 1;
 }
 
@@ -568,12 +571,12 @@ hr{
 
 .box-bg {
   padding: 20px;
-  background: #2B859F;
+  background: #0A85C7;
   width: 100%;
 }
 
 .box-btn {
-  background-color: #2B859F;
+  background-color: #0A85C7;
   color: #111111;
   font-family: "Kalos";
   font-size: 25px;
@@ -627,7 +630,7 @@ hr{
 
 .sponsors-p {
   padding: 0px;
-  background: #2B859F;
+  background: #0A85C7;
   width: 100%;
 }
 
